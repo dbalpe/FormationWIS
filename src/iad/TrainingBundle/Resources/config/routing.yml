@@ -1,0 +1,4 @@
+iad_training_book:
+    resource: "@iadTrainingBundle/Resources/config/routing/book.xml"
+    prefix:   /book
+
