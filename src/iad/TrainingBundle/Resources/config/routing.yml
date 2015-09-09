@@ -2,3 +2,10 @@ iad_training_book:
     resource: "@iadTrainingBundle/Resources/config/routing/book.xml"
     prefix:   /book
 
+iad_trainning_service:
+    path: /service/hello
+    defaults: { _controller: iadTrainingBundle:TestServiceTrainingBundle:hello }
+
+iad_trainning_mandrill:
+    path: /mandrill
+    defaults: { _controller: iadTrainingBundle:TestMandrill:index }
